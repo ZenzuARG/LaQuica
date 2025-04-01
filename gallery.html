@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="dark-mode.js" defer></script>
+    <script src="gallery.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cormorant:wght@300..700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <title>Galeria</title>
+</head>
+<body>
+    <button id="home-button">Inicio</button>
+    <button id="dark-mode-toggle">Modo Noche/Dia</button>
+    <header>
+        <h1 class="cormorant-h1">Galería</h1>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2 class="cormorant-h2">Investigacion de suelo</h2>
+            <div class = "gallery">
+                <img src="./images\00 - Plano general - 2024 - LaQuica.jpg" alt="Plano general">
+                <img src="./images\000 - Portada - 2024 - LaQuica.jpg" alt="Portada">
+                <img src="./images\0000 - Ubicación - 2024 - LaQuica.jpg" alt="Ubicación">
+                <img src="./images\01 - Lotes y Parcelas - 2024 - LaQuica.jpg" alt="Lotes y     Parcelas">
+                <img src="./images\01a - Lotes y Parcelas - 2024 - LaQuica.jpg" alt="Lotes y    Parcelas">
+                <img src="./images\02 - Usos de suelo - 2024 - LaQuica.jpg" alt="Usos de suelo">
+                <img src="./images\02a - Usos de suelo - 2024 - LaQuica.jpg" alt="Usos de suelo">
+                <img src="./images\02b - Usos de suelo - 2024 - LaQuica.jpg" alt="Usos de suelo">
+                <img src="./images\02c - Usos de suelo Agricola - 2024 - LaQuica.jpg" alt="Imagen   3">
+                <img src="./images\03 - Carta suelos INTA - 2024 - LaQuica.jpg" alt="Carta  suelos   INTA">
+                <img src="./images\04 - Altimetria Sat - 2024 - LaQuica.jpg" alt="Altimetria Sat">
+                <img src="./images\05 - Imagen Sat Actual - 2024 - LaQuica.jpg" alt="Imagen     Sat     Actual">
+            </div>
+        </div>
+        <div class="container">
+            <h2 class="cormorant-h2">Fotos y Videos</h2>
+            <div class = "gallery">
+                <img src="./images\fotos-videos\sorgo1.jpg" alt="Sorgo">
+                <img src="./images\fotos-videos\sorgo2.jpg" alt="Sorgo">
+                <img src="./images\fotos-videos\sorgo3.jpg" alt="Sorgo">
+                <img src="./images\fotos-videos\sorgo4.jpg" alt="Sorgo">
+                <video src="./images\fotos-videos\sorgo.mp4" alt="Sorgo"></video> 
+                <img src="./images\fotos-videos\girasol1.jpg" alt="Girasol">
+                <img src="./images\fotos-videos\girasol2.jpg" alt="Girasol">
+                <video src="./images\fotos-videos\manga.mp4" alt="Manga"></video> 
+            </div>
+        </div>
+        <!-- Contenedor de la imagen en pantalla completa -->
+        <div class="image-viewer">
+            <div class="viewer-media"></div> <!-- Aquí se insertará la imagen o el video dinámicamente -->
+            <button class="close-btn">✖</button>
+            <button class="prev-btn nav-btn">◀</button>
+            <button class="next-btn nav-btn">▶</button>
+        </div>
+
+        <h2 class="cormorant-h2" style="text-align: center;">Ubicación</h2>
+        <div class="map-container">
+            <div class="iframe-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d25790.65953927535!2d-61.12900829708239!3d-36.665043541107075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzbCsDQwJzQ4LjkiUyA2McKwMDcnNTAuOCJX!5e1!3m2!1ses-419!2sar!4v1740493936680!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 La Quica | Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
